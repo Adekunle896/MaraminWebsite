@@ -1,0 +1,524 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5rem;
+    align-content: center;
+    
+}
+
+
+/* Utility clases */
+
+.text-primary{
+    background: #333;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+.btn{
+    background: rgb(48, 185, 48);
+    padding: 1rem 2rem;
+    border: none;
+    color: white;
+    font-size: 15px;
+    margin-bottom: 4rem;
+    border-radius: 5px;
+   
+}
+
+.btn:hover{
+    background: #333;
+}
+
+
+/* logo */
+
+.logo{
+    height: 100%;
+}
+
+
+/* main styling */
+
+#navbar {
+    background: #333;
+    border: none;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    height: 10vh;
+    padding: 0.7rem 0.5rem;
+
+}
+
+#navbar ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-size: 1rem;
+    padding: 0.1rem 0.2rem;
+    /* margin-top: 0.5rem; */
+    /* height: 100%; */
+}
+
+#navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 0.8rem;
+    margin: 2rem 1rem;
+}
+
+#navbar ul li a:hover{
+    background: rgb(48, 185, 48);
+    border-radius: 5px;
+}
+
+/* showcase */
+#showcase{
+    background: url(work-7.jpg) no-repeat
+    center center/cover; 
+    height: 100vh;
+}
+
+#showcase .showcase-content{
+    text-align: center;
+    padding-top: 18rem;
+    line-height: 1.5rem;
+
+}
+
+#showcase .showcase-content h1{
+    font-size: 60px;
+    margin-bottom: 2rem;
+}
+
+#showcase .showcase-content p{
+    font-size: 20px;
+    margin-bottom: 2rem;
+}
+
+#showcase .showcase-content a{
+    background: rgb(48, 185, 48);
+    text-decoration: none;
+    padding: 0.7rem 2rem;
+    border-radius: 5px;
+    color: white;
+}
+
+#showcase .showcase-content a:hover{
+    background-color: #333;
+}
+
+/* About Us */
+
+#About-us{
+    background: rgb(226, 217, 217);
+
+}
+
+#About-us .info-content{
+    text-align: center;
+    padding: 2.5rem 5rem;
+    line-height: 1.5rem;
+
+}
+
+#About-us .info-content h2{
+    font-size: 30px;
+    line-height: 1.5rem;
+    margin-bottom: 2.5rem;
+}
+
+#About-us .info-content p{
+    color: black;
+}
+
+/* Vision */
+
+#Vision{
+    background: rgb(236, 241, 236) ;
+    width: 100%;   
+}
+
+#Vision .container{
+    display: flex;
+    padding: 4rem;
+}
+
+#Vision .container .items{
+    background: rgb(252, 250, 250);
+    border: 0px solid rgb(48, 185, 48) ;
+    margin-bottom: 1rem;
+    text-align: center;
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    padding: 5rem;
+    width: 30%;
+    margin: auto;
+}
+
+#Vision .container .items:hover{
+    color:rgb(48, 185, 48) ;
+}
+
+#Vision .container .items i{
+    background: #333;
+    border-radius: 50px;
+    padding: 15px;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+#Vision .container .items h2{
+    font-size: 30px;
+    line-height: 2rem;
+}
+
+#Vision .container .items h3{
+    font-size: 20px;
+    line-height: 2rem;
+}
+
+
+/* construction info */
+
+#construction-info{
+    background: rgb(252, 250, 250);
+    display: flex;
+    flex-direction:row;
+    padding: 3rem 4rem;
+}
+
+#construction-info .items .item{
+    display: flex;
+    line-height: 2rem;
+    margin-bottom: 2.5rem;
+   
+}
+
+#construction-info .items{
+    padding: 10px;
+}
+
+#construction-info .items .item i{
+    margin-right: 1rem;
+    background: #333;
+    border-radius: 50%;
+    padding: 15px;
+    color:white;
+}
+
+
+
+#construction-info .items .item i:hover{
+    background:  rgb(48, 185, 48);
+}
+
+.h2-head{
+    font-size: 25px;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+/* Projects */
+
+#Projects{
+    text-align: center;
+    background: rgb(197, 192, 192);
+
+    
+}
+
+#Projects h2{
+    font-size: 20px;
+    margin-top: 0.5 rem;
+}
+
+#Projects h5{
+    font-size: 20px;
+    margin-bottom: 4rem;
+    padding-top: 3rem;
+}
+
+#Projects .h3-h{ 
+    padding-top: 4rem;
+    font-size: 50px;
+}
+
+#Projects .h2-f{
+    background: white;
+    padding: 3rem 1rem ;
+    margin-bottom: 2rem;
+}
+
+
+#Projects .item-2{
+    justify-content:space-around;
+    padding: 1rem 2rem;
+    width: 50%;
+    height: 70%;
+    padding-bottom: 2rem;
+}
+
+#Projects .items-2{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding-bottom: 2rem;
+}
+
+#Projects .item-2 img{
+    margin: auto;
+    margin-top: 3rem;
+    width: 100%;
+    height: 50%;
+    
+}
+
+
+/* Blogs */
+
+#Blog-info{
+    text-align: center;
+    background: rgb(248, 246, 246);
+    padding-top: 2rem;
+   
+    
+}
+
+#Blog-info .Blogs{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding-bottom: 2rem;
+}
+
+
+#Blog-info img{
+    margin: auto;
+    height: 90%;
+    width: 70%;
+   
+}
+
+
+#Blog-info .Blog-item{
+    justify-content:space-around;
+    padding: 2rem 2rem;
+    width: 30%;
+    height: 70%;
+    padding-bottom: 2rem;
+    border: #333 1px solid;
+}
+
+
+#Blog-info h5{
+    font-size: 20px;
+    margin-bottom: 2rem;
+    padding-top: 1rem;
+}
+
+#Blog-info .h2-f{
+    margin-bottom: 0.5rem;
+}
+
+#Blog-info .h2-f .blog-paragraph{
+    margin-bottom: 2rem;
+}
+
+#Blog-info .blog-paragraph-2{
+    margin-top: 2rem;
+}
+
+#Blog-info .h3-h{
+    padding-top: 1rem; 
+    margin-bottom: 2rem;
+    font-size: 30px;
+}
+
+/* #Blog-info .Container .Head-par{
+    font-size: 10px;
+    text-align: center;
+    margin-bottom: 2rem;
+    background: rgb(48, 185, 48);
+    padding: 2rem;
+
+} */
+
+#Blog-info .Container{
+    margin-bottom: 5rem;
+}
+
+.Link{
+    background:rgb(48, 185, 48) ;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px; 
+    margin-top: 1rem;
+}
+
+.Link a{
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+}
+.Link:hover{
+    background: #333;
+}
+
+
+/* footer */
+
+#footer{
+    background: #333;
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 4rem 4rem;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+}
+
+#footer .footer-1{
+    margin-right: 4rem;
+}
+
+/* #footer .containter-footer{
+    flex-wrap: wrap;
+    flex-direction: row;
+} */
+
+#footer h2{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+#footer p{
+    color: rgb(141, 121, 121);
+}
+
+#footer a{
+    color: rgb(141, 121, 121);
+}
+
+#footer .icon{
+    color: orange;
+    margin-right: 1rem;
+}
+
+#footer .button{
+    background: #333;
+    border: 1px solid white;
+    color: white;
+    padding: 1rem 3.5rem;
+    border-radius: 50px;
+}
+
+#footer .button:hover{
+    background: orange;
+}
+
+
+#footer input{
+    margin-bottom: 0.2rem;
+    padding: 0.5rem 1rem;
+    width: 300px;
+    background: white;
+    border: none;
+}
+
+#footer .footer-1{
+    margin-right: 5rem;
+    justify-content: center;
+}
+
+/* Contact Us */
+
+#contact-us .contact-container{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+   
+}
+
+#contact-us .contact-heading{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 1.2rem;
+}
+
+#contact-us .contact-paragraph{
+    text-align: center;
+    margin-top: 0.7rem;
+}
+
+
+#contact-us .contact-container .contact-flex{
+    width: 40%;
+    margin-top: 2rem;
+}
+
+#contact-us{
+    background: rgb(206, 193, 193);
+    width: 100%;
+    height: 80vh;
+}
+
+#contact-us input{
+    display: block;
+    padding: 0.4rem 0.7rem;
+    margin-bottom: 1rem;
+    color: white;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+}
+ 
+#contact-us textarea{
+    padding: 0.4rem 0.7rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    height: 100px;
+    border: none;
+    border-radius: 5px;
+}
+
+#contact-us label{
+    margin-bottom: 1rem;
+}
+
+#contact-us .contact-button{
+    color: white;
+    background: #333;
+    padding: 1rem 1.8rem;
+    border: none;
+    border-radius: 50px;
+    margin-top: 1rem;
+}
+
+#contact-us .contact-button:hover{
+    background:  rgb(48, 185, 48);
+    border: 1px solid white;
+    margin-bottom: 1rem;
+}
+
+#contact-us img{
+    display: block;
+    border: none;
+    height: 70%;
+    width: 80%;
+    border-radius: 50%;
+}
